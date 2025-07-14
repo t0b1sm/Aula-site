@@ -12,9 +12,38 @@ p {
     text-align: justify;
     line-height: 1.5;
 }
-img {
+footer{
+    text-align: justify;
+    text-align: center;
+}
+.caixinha{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.caixinha img{
     border: 1px solid #ccc;
     border-radius: 8px;
     width: 100px;
     /* opa */
   }
+  .certificados{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .certificados img{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 150px;
+  }
+  .Voltar{
+    background-color: #f4f4b1;
+    width: 220px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
