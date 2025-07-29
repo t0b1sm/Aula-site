@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre mim - Isadora</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffd8f3, #f8c3d7);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      padding: 30px;
+      max-width: 800px;
+      width: 90%;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #e89e9e;
+    }
+
+    h1 {
+      color: #333;
+      margin-top: 15px;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.5;
+      margin: 10px 0;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: #e89e9e;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 12px;
+      margin: 5px;
+      font-size: 14px;
+    }
+
+    .github-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #f75a89;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .github-btn:hover {
+      background-color: #e89e9e;
+    }
+
+    .cert-section {
+      margin-top: 30px;
+    }
+
+    .cert-section h2 {
+      color: #d63384;
+      margin-bottom: 15px;
+    }
+
+    .cert-wrapper {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .cert-box {
+      flex: 1 1 300px;
+    }
+
+    .cert-box p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+
+    .cert-img {
+      width: 100%;
+      border-radius: 12px;
+      border: 2px solid #ff99cc;
+      box-shadow: 0 4px 10px rgba(255,105,180,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="../../imgs/isa.jpeg" alt="Sua foto" class="profile-pic">
+    <h1>Isadora Fernandes</h1>
+    <p>Oioi, tudo bem? Me chamo Isadora. Faço Análise e Desenvolvimento de Sistemas, amo carros, Marvel e inteligência artificial. Meu sonho é tornar o mundo um lugar melhor! (e também ter um Lancer Evo).</p>
+    
+    <div>
+      <span class="tag">TI & IA</span>
+    </div>
+
+    <a href="https://github.com/isaluch" target="_blank" class="github-btn">Ver meu GitHub</a>
+
+    <div class="cert-section">
+      <h2>Meus Certificados</h2>
+
+      <div class="cert-wrapper">
+        <div class="cert-box">
+          <p> HTML</p>
+          <img src="../../imgs/Htmlisa.png" alt="Certificado HTML" class="cert-img">
+        </div>
+
+        <div class="cert-box">
+          <p> CSS</p>
+          <img src="../../imgs/CSSisa.png" alt="Certificado CSS" class="cert-img" style="max: height 560px;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

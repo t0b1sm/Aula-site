@@ -1,8 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
@@ -25,7 +23,6 @@ footer{
     border: 1px solid #ccc;
     border-radius: 8px;
     width: 100px;
-    /* opa */
   }
   .certificados{
     display: flex;

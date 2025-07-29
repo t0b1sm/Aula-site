@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Maisa Steinmetz</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8e2f7; /* roxo claro delicado */
+    color: #3a2e6d;
+  }
+
+  .perfil {
+    display: flex;
+    max-width: 800px;
+    margin: 80px auto;
+    background: #f9f8ff;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(58, 46, 109, 0.15);
+    overflow: hidden;
+  }
+
+  .foto {
+    flex: 1;
+    min-width: 250px;
+  }
+
+  .foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 0 0 20px;
+  }
+
+  .info {
+    flex: 2;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .info h1 {
+    margin: 0 0 20px 0;
+    font-size: 2.8em;
+    color: #6b5fb8;
+  }
+
+  .info p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #5a4d91;
+  }
+
+  /* Responsivo para telas pequenas */
+  @media (max-width: 700px) {
+    .perfil {
+      flex-direction: column;
+      max-width: 90%;
+    }
+
+    .foto img {
+      border-radius: 20px 20px 0 0;
+      height: 300px;
+    }
+
+    .info {
+      padding: 25px 20px;
+    }
+
+    .info h1 {
+      font-size: 2em;
+    }
+
+    .info p {
+      font-size: 1em;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="perfil">
+    <div class="foto">
+      <img src="../../imgs/maisa.jpeg" alt="Foto de Maisa Steinmetz" />
+    </div>
+    <div class="info">
+      <h1>Maisa Steinmetz</h1>
+      <p>Oi,tudo bem? me chamo Maísa, tenho 17 anos e estou no ultimo ano do ensino médio. </p>
+    </div>
+  </div>
+</body>
+</html>
